@@ -1,5 +1,5 @@
 # multi_HWE_tests
-This is an R function that takes a GENEPOP file as input and performs classic chi-squared tests of Hardy-Weinberg Equilibrium (HWE) on genotypic data (microsatellites, SNPs, mycrohaplotypes) from each population using the R function `hw.test` {pegas} and corrects for multiple comparisons using the R function `p.adjust` {stats}. The output is a text file (.txt) for each population with all pairs of loci that significantly deviate from HWE. Soon I'll improve the function to identify the pairs of loci that are common across all populations i.e., to identify potential non-neutral loci.
+This is an R function that takes a genepop file as input and performs classic chi-squared tests of Hardy-Weinberg Equilibrium (HWE) on genotypic data (microsatellites, SNPs, mycrohaplotypes) from each population using the R function `hw.test` {pegas} and corrects for multiple comparisons using the R function `p.adjust` {stats}. The output is a text file (.txt) for each population with all pairs of loci that significantly deviate from HWE. Soon I'll improve the function to identify the pairs of loci that are common across all populations i.e., to identify potential non-neutral loci.
 
 ## R packages needed
 - pegas<sup>1</sup>
@@ -14,7 +14,7 @@ multi_HWE_tests(genepop, allele_code = 3, pop_cvs = NULL, multi_corr = "bonferro
 ## Arguments
 ~~~
 genepop
-     genepop (.gen) file (including the path to the file if necessary)
+     The path to a genepop file (.gen).
      
 allele_code
      The number of characters used for coding one allele at each locus in the genepop file. Possible values are 2 or 3.
@@ -27,6 +27,11 @@ pop_csv
 multi_corr
      The multi-comparison correction method to be used. The options are any method implemented on p.adjust {stats} R function.
      [Default: bonferroni]
+~~~
+
+## pop_csv example format
+~~~
+Pop1,Pop2,Pop3,Pop4,Pop5,Pop6
 ~~~
 
 ## Citation
