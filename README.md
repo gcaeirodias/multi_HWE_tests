@@ -29,7 +29,7 @@ multi_corr
      [Default: bonferroni]
 ~~~
 
-## pop_csv example format
+### pop_csv example format
 ~~~
 Pop1,Pop2,Pop3,Pop4,Pop5,Pop6
 ~~~
