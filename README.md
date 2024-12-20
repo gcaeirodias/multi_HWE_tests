@@ -35,7 +35,7 @@ Pop1,Pop2,Pop3,Pop4,Pop5,Pop6
 ~~~
 
 ## Citation
-If you use this scrip on your work, please cite the article where this script was first used: Caeiro-Dias G, Osborne MJ, Turner TF, In review (to be updated).
+If you use this scrip on your work, please cite the article where this script was first used: Caeiro-Dias G, Osborne MJ, Turner TF, In review (to be updated uppon publication).
 
 ## References
 1. Paradis E (2010) pegas: an R package for population genetics with an integrated-modular approach. _Bioinformatics_, 26(3):419-420. <https://doi.org/10.1093/bioinformatics/btp696>.
