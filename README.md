@@ -35,7 +35,7 @@ Pop1,Pop2,Pop3,Pop4,Pop5,Pop6
 ~~~
 
 ## Citation
-If you use this scrip on your work, please cite the article where this script was first used: Caeiro-Dias G, Osborne MJ, Turner TF, In review (to be updated uppon publication).
+Please cite the article where these functions were first published: [Caeiro-Dias G, Osborne MJ, Turner TF (2024). Time is of the essence: using archived samples in the development a GT-seq panel to preserve continuity of ongoing genetic monitoring. Authorea](https://doi.org/10.22541/au.173501104.41338406/v1). 
 
 ## References
 1. Paradis E (2010) pegas: an R package for population genetics with an integrated-modular approach. _Bioinformatics_, 26(3):419-420. <https://doi.org/10.1093/bioinformatics/btp696>.
