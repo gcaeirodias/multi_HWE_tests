@@ -10,6 +10,7 @@ This is an R[[1](#References)] function that takes a genepop file as input and p
 ~~~
 genepop
      The path to a genepop file (.gen).
+     [Default: current directory]
      
 allele_code
      The number of characters used for coding one allele at each locus in the genepop file. Possible values are 2 or 3.
