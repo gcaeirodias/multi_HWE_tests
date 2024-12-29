@@ -1,5 +1,5 @@
 # multi_HWE_tests
-This is an R[[1](#References)]function that takes a genepop file as input and performs classic chi-squared tests of Hardy-Weinberg Equilibrium (HWE) on genotypic data (microsatellites, SNPs, mycrohaplotypes) from each population using the R function `hw.test` {pegas} and corrects for multiple comparisons using the R function `p.adjust` {stats}. The output is a text file (.txt) for each population with all pairs of loci that significantly deviate from HWE. Soon I'll improve the function to identify the pairs of loci that are common across all populations, i.e., to identify potential non-neutral loci.
+This is an R[[1](#References)] function that takes a genepop file as input and performs classic chi-squared tests of Hardy-Weinberg Equilibrium (HWE) on genotypic data (microsatellites, SNPs, mycrohaplotypes) from each population using the R function `hw.test` {pegas} and corrects for multiple comparisons using the R function `p.adjust` {stats}. The output is a text file (.txt) for each population with all pairs of loci that significantly deviate from HWE. Soon I'll improve the function to identify the pairs of loci that are common across all populations, i.e., to identify potential non-neutral loci.
 
 ## R packages needed
 - pegas[[2](#References)]
